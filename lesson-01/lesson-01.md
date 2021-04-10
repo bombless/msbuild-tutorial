@@ -14,7 +14,7 @@ Now build this project with MSBuild:
 msbuild build.xml
 ```
 
-Now we should see its output:
+Then we should see its output:
 ```sh
 HelloWorld:
   Hello World
