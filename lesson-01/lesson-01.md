@@ -1,6 +1,6 @@
-## Lesson 1
+# Lesson 1
 
-# Hello World
+## Hello World
 
 First thing first, let's make a traditional hello-world project for MSBuild.
 
