@@ -1,0 +1,1 @@
+<Project><Target Name="HelloWorld"><Message Text="Hello World" /></Target></Project>
