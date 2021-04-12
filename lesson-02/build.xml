@@ -1,0 +1,12 @@
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <PropertyGroup>
+  <TargetDir>./target/</TargetDir>
+  <ClassName>Main</ClassName>
+ </PropertyGroup>
+ <Target Name="Task">
+  <MakeDir Directories="$(TargetDir)" />
+  <Exec Command="javac -d $(TargetDir) $(ClassName).java" />
+  <Exec WorkingDirectory="$(TargetDir)" Command="java $(ClassName)" />
+ </Target>
+</Project>
